@@ -261,7 +261,7 @@
 .header {
 	padding: 30px 15px 217px 15px;
 /* -----------------------Вставим баннер--------------------------------------- */
-	background-image: url("../images/banner-mobile.jpg");
+	background-image: url(../images/banner-mobile.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -1121,7 +1121,7 @@
 
 /* -------------------------------HEADER TABLET--------------------------------------- */
 	.header {
-		background-image: url("../images/banner-bg-tablet.jpg");
+		background-image: url(../images/banner-bg-tablet.jpg);
 		padding: 42px 35px 126px 35px;
 	}
 	.header-top {
@@ -1142,7 +1142,7 @@
 		font-size: 40px;
 		line-height: 1.375;
 	}
-/* ------------------------------НАШИ ИЗДЕЛИЯ----TABLET------------------------------- */
+/* ------------------------------Сейчас в тренде ----TABLET------------------------------- */
 	.trending-title {
 		font-size: 18px;
 		margin-top: 40px;
@@ -1153,7 +1153,7 @@
 		margin: 14px auto 18px auto;
 	}
 	.trending-card-title {
-		font-size: 17px;
+		/* font-size: 17px; */
 		line-height: 1.29;
 	}
 	.trending {
@@ -1262,11 +1262,15 @@
 /** ---------------------------- Медиа для ДЕСКТОП-а -----------НАЧАЛО--------------------------- */
 @media screen and (min-width: 1200px) {
 
+	.trending-card-title {
+		font-size: 17px;
+		
+	}
 	.container {
 		max-width: 1200px;
 	}
 	.header {
-		background-image: url("../images/banner-bg.jpg");
+		background-image: url(../images/banner-bg.jpg);
 		padding: 45px 15px 145px 15px;	
 	}
 	.header-top {
